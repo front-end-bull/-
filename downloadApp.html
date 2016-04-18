@@ -95,8 +95,27 @@
       }
     
 
+    /*某些蛋疼的Android浏览器 fuck*/
+    @media screen and (min-device-width:1080px){
+      .top{
+          height: 380px;
+        }
+        
+        .left,.right{
+          font-size: 18px;
+          letter-spacing: 0;
+        }
+        .bottom{
+          height: 200px;
+        }
+        .button{
+          height: 110px;
+        }
+    }
+    
+
     /*ipad*/
-    @media screen and (min-device-width:768px){
+    @media screen and (min-device-width:768px) and (max-device-width:1079px){
         .top{
           height: 700px;
         }
